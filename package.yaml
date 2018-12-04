@@ -27,6 +27,9 @@ dependencies:
 
 library:
   source-dirs: src
+  ghc-options:
+  - -Wall
+  - -fno-warn-unused-do-bind
 
 executables:
   advent2018-exe:
